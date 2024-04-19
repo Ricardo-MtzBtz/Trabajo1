@@ -1,0 +1,108 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total de la ventana */
+}
+
+.container {
+  margin-top: 164px;
+    width: 200px; /* Ancho de los cuadros */
+    display: flex;
+    flex-direction: column; /* Apilar los cuadros verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+
+    /* modifica los bordes inferiores */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 336px;
+    
+    border: 16px solid #FFFFFF;
+    
+    box-shadow: 0px 30px 100px 0px rgba(17, 0, 0, 0.1);
+   
+
+    
+    
+    background-color: #ffffff; /* Color de fondo */
+    margin-top: 1mm; /* Separación de 5 milímetros entre los cuadros */
+
+    
+
+    
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    
+  }
+
+.text {
+  
+    font-size: 12px;
+    margin-bottom: 0.625rem;
+    font-family: 'Sora' , sans-serif;
+   color: #6C727F;
+    box-shadow: 0px 30px 100px 0px rgba(17, 0, 0, 0.1);
+    margin: 10px;
+}
+.card-content {
+    
+    padding: 5px;
+  }
+  .card-tag {
+
+    
+    display: inline-block;
+    background-color: #E6D6FC;
+    color: #883AE1;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 0,75rem;
+    font-weight: bold;
+    font-family: 'Sora' , sans-serif;
+  }
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 1,125rem;
+    font-family: "Sora", sans-serif;
+    color: #20293A;
+  }
+  .card-description {
+    
+    padding-right: 40px;
+    font-size: 14px;
+    margin-bottom: 0.875rem;
+    font-family: 'Sora' , bold;
+    color: #6C727F;
+    
+  }
+  .box1 {
+    /* modifica los bordes superiores */
+        border-bottom-left-radius: 20px; 
+        border-bottom-right-radius: 20px;
+       
+        width: 336px;
+        
+        border: 16px solid #FFFFFF;
+        
+        box-shadow: 0px 30px 100px 0px rgba(17, 0, 0, 0.1);
+       
+    
+        
+        
+        background-color: #ffffff; /* Color de fondo */
+        margin-top: 1mm; /* Separación de 5 milímetros entre los cuadros */
+    
+        
+    
+        
+    }
